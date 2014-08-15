@@ -1,10 +1,6 @@
 package com.jszczygiel.twitterhashtagg;
 
-import android.app.Activity;
 import android.test.ActivityInstrumentationTestCase2;
-import android.test.ActivityTestCase;
-import android.test.ActivityUnitTestCase;
-import android.test.InstrumentationTestCase;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -13,7 +9,9 @@ import com.jszczygiel.twitterhashtagg.ui.activity.MainActivity;
 import com.jszczygiel.twitterhashtagg.ui.adapter.TweetsAdapter;
 
 /**
- * Created by radny on 15.08.14.
+ * Test for TweetAdapter
+ *
+ * Created by jszczygiel on 15.08.14.
  */
 public class TweetAdapterTest extends ActivityInstrumentationTestCase2<MainActivity> {
 

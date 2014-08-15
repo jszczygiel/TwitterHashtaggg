@@ -6,7 +6,9 @@ import com.jszczygiel.twitterhashtagg.api.TwitterApi;
 
 
 /**
- * Created by radny on 15.08.14.
+ * Test for TwitterApi
+ *
+ * Created by jszczygiel on 15.08.14.
  */
 public class TwitterApiTest extends InstrumentationTestCase {
 
