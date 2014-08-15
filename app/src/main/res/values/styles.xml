@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="SmallText" parent="@android:style/TextAppearance.Small"></style>
+
+    <style name="MediumText" parent="@android:style/TextAppearance.Medium"></style>
+</resources>

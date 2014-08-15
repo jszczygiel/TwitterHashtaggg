@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.1.0"
+
+    defaultConfig {
+        applicationId "com.jszczygiel.twitterhashtagg"
+        minSdkVersion 15
+        targetSdkVersion 19
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.google.code.gson:gson:2.3'
+    compile files('libs/twitter4j-async-4.0.2.jar')
+    compile files('libs/twitter4j-core-4.0.2.jar')
+    compile files('libs/twitter4j-examples-4.0.2.jar')
+    compile files('libs/twitter4j-media-support-4.0.2.jar')
+    compile files('libs/twitter4j-stream-4.0.2.jar')
+}

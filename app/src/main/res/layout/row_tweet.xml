@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/row_height"
+    android:padding="@dimen/space_small">
+
+    <TextView
+        android:id="@+id/row_tweet_user_name"
+        style="@style/SmallText"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user name" />
+
+    <TextView
+        android:id="@+id/row_tweet_content"
+        style="@style/SmallText"
+        android:layout_width="wrap_content"
+        android:layout_above="@+id/row_tweet_user_name"
+        android:layout_height="wrap_content"
+        android:text="some text to be displayed over here"
+        android:layout_marginBottom="@dimen/space_small" />
+</RelativeLayout>
