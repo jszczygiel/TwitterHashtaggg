@@ -29,7 +29,7 @@ public class TwitterApi extends ProxyApi {
     /**
      * Proxy constructor for Twitter4j library.
      */
-    public TwitterApi() {
+        public TwitterApi() {
         super();
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setOAuthConsumerKey(CONSUMER_KEY);
